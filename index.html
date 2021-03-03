@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="DOM">
+                <div class="container">
+                    <h1 class="DOM__title">DOM Array Methods</h1>
+                    <div class="DOM__row">
+                        <div class="add">
+                            <div class="add__column">
+                                <button id="add_User" class="add__user">add user</button>
+                                <button id="add_double" class="add__double">double money</button>
+                                <button id="add_Show" class="add__show">show only millioners</button>
+                                <button id="add_Sort" class="add__sort">sort by richest</button>
+                                <button id="add_Calculate" class="add__calculate">calculate entire wealth</button>
+                            </div>
+                        </div>
+                        <div class="person__column">
+                                <div class="person__parent">
+                                    <div class="person__row">
+                                        <div id="text1">Person</div>
+                                        <div id="text2">Wealth</div>
+                                    </div>
+                                </div>
+                                <div id="person_parent" class="person__parent">
+                                    <!-- <div class="person__row">
+                                        <div class="text3">Mary Palmer</div>
+                                        <div class="text4">$1,998,070.00</div>
+                                    </div> -->
+                                </div>
+                                <div style="display: none;" id="totalWealth" class="person__parent">
+                                    <div class="person__row">
+                                        <div class="text3">Total Wealth</div>
+                                        <div style="font-weight: 700;" id="wealth">0</div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
